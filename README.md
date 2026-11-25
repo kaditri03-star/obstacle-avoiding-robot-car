@@ -14,17 +14,14 @@ Written during the hands-on robotics workshop conducted by NEXOBOT (November 202
 
 ## Pin connections (from the code)
 
-|----------------------------|-----|
-|       Function             | Pin |
-|----------------------------|-----|
-| Ultrasonic trigger         | D2  |
-| Ultrasonic echo            | D3  |
-| Right motor, forward (PWM) | D5  |
-| Right motor, reverse (PWM) | D6  |
-| Left motor, forward (PWM)  | D9  |
-| Left motor, reverse (PWM)  | D10 |
-|----------------------------|-----|
-
+| Function | Pin |
+|---|---|
+| Ultrasonic trigger | D2 |
+| Ultrasonic echo | D3 |
+| Right motor, forward (PWM) | D5 |
+| Right motor, reverse (PWM) | D6 |
+| Left motor, forward (PWM) | D9 |
+| Left motor, reverse (PWM) | D10 |
 Motor speed is set with `analogWrite` (PWM). The base speed is 125 out of 255.
 
 ## Hardware
